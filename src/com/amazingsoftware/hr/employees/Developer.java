@@ -68,4 +68,9 @@ public class Developer extends Employee implements Serializable {
 	public String toString() {
 		return super.toString()+"Developer Level="+level+"\n";
 	}
+	@Override
+	public void pay() {
+		//TODO: right the thing
+	}
+	
 }

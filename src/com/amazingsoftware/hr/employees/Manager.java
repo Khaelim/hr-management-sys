@@ -70,7 +70,10 @@ public class Manager extends Employee implements Serializable {
 	public String toString() {
 		return super.toString()+"Monthly Salary="+monthlySalary+"\nBonus="+bonus+"\n";
 	}
-
+	@Override
+	public void pay() {
+		//TODO: right the thing
+	}
 
 
 }
